@@ -86,7 +86,7 @@ https://t.me/${ctx.botInfo.username}?start=user${ctx.from.id}
         async start(ctx) {
             return `<b>Welcome ${
                 ctx.from.first_name
-            }to the Telegram agency of CORIS MONEY.\n\n🛡 Subscribe to our channels📲 if you want to use CORIS MONEY and earn up to 100,000 FCA per week with it: </b>\n\n${await getLinks()}☑️ Once done, click ✅CHECK`;
+            }to the Telegram agency of MOOV MONEY.\n\n🛡 Subscribe to our channels📲 if you want to use CORIS MONEY and earn up to 100,000 FCA per week with it: </b>\n\n${await getLinks()}☑️ Once done, click ✅CHECK`;
         },
         bonus(mins, secs) {
             return `🚀 Current Bonus Already Claimed!\n\n👾👾 Be back in precisely  ${mins} minutes and ${secs} seconds to claim your next bonus! ⏳`;
@@ -151,7 +151,7 @@ https://t.me/${ctx.botInfo.username}?start=user${ctx.from.id}
         async start(ctx) {
             return `<b>Bienvenue ${
                 ctx.from.first_name
-            } sur l'agence Telegram de CORIS MONEY\n\n🛡 Abonne-toi à nos chaînes📲 si tu veux utiliser CORIS MONEY et gagner jusqu'à 100 000 FCA par semaine grâce à celui-ci: </b>\n\n${await getLinks()}☑️ Une Fois Terminé, Cliquer ✅CHECK`;
+            } sur l'agence Telegram de MOOV MONEY.\n\n🛡 Abonne-toi à nos chaînes📲 si tu veux utiliser CORIS MONEY et gagner jusqu'à 100 000 FCA par semaine grâce à celui-ci: </b>\n\n${await getLinks()}☑️ Une Fois Terminé, Cliquer ✅CHECK`;
         },
         bonus(mins, secs) {
             return `🚀 Bonus Actuel Déjà Attribué!\n\n👾 Reviens dans exactement ${mins} minutes ${secs} secondes pour décrocher ton prochain bonus ! ⏳`;
